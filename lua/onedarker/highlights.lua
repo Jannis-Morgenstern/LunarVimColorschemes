@@ -1,5 +1,5 @@
 local highlights = {
-		Normal = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
+		Normal = {fg = C.fg, bg = Config.transparent_background and "" or C.bg, },
 		SignColumn = {bg = C.bg, },
 		MsgArea = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
 		ModeMsg = {fg = C.fg, bg = C.bg, },
@@ -94,6 +94,7 @@ local highlights = {
 		TabLine = {fg = C.light_gray, bg = C.alt_bg, },
 		TabLineSel = {fg = C.fg, bg = C.alt_bg, },
 		TabLineFill = {fg = C.fg, bg = C.alt_bg, },
+		WinSeperator = {bg = "NONE", },
 }
 
 return highlights
